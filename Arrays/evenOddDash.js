@@ -2,8 +2,16 @@
 
 let dashedArray = (input) => {
   let stringedArray = input.toString();
-  let result = [stringedArray];
-  return result;
+  let result = [stringedArray[0]];
+
+  for (let x = 1; x < stringedArray.length; x++) {
+    if (stringedArray[x - 1] % 2 === 0 && stringedArray[x] % 2 === 0) {
+      result.push("-", stringedArray[x]);
+    } else {
+      result.push(stringedArray[x]);
+    }
+  }
+  console.log(result.join(""));
 };
 
-console.log(dashedArray(214567));
+console.log(dashedArray(1455768));
