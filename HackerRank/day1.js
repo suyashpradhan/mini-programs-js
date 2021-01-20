@@ -2,7 +2,7 @@
 !Complete the following functions in the editor below: getArea(length, width): Calculate and return the area of a rectangle having sides and .getPerimeter(length, width): Calculate and return the perimeter of a rectangle having sides and.
 */
 
-/* function getArea(length, width) {
+function getArea(length, width) {
   return length * width;
 }
 
@@ -11,7 +11,7 @@ function getPerimeter(length, width) {
 }
 
 console.log(getArea(3, 4.5));
-console.log(getPerimeter(3, 4.5)); */
+console.log(getPerimeter(3, 4.5));
 
 //!Implement a function named factorial that has one parameter: an integer, . It must return the value of  (i.e.,  factorial).
 
@@ -36,12 +36,3 @@ function factorialRecursive(n) {
 
 console.log(factorial(4));
 console.log(factorialRecursive(6));
-
-let user = {
-  name: "Coder Jain",
-};
-
-let userList = [user];
-user = null;
-
-console.log(userList);
