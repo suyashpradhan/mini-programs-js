@@ -1,7 +1,7 @@
-# A list of mini programs in JavaScript for interview practice or just for practice (22nd Dec - 2020)
+## A repository of competitive coding practice in JavaScript for interviews and improving problem solving (22nd Dec - 2020)
 ---
 
-## Topics 
+### Topics 
 
 1. Strings
 2. Functions
